@@ -1,33 +1,16 @@
-# My Awesome Project
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+# CNN Project
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
-
-![alt tag](http://placecorgi.com/1200/650)
+This program creates the structure of a convolutional neural network. The architecture was based off of the LeNet-5 CNN architecture, where it contains five layers with three hidden layers. The input of the network is a 28x28 image of a digit from MNIST and outputs a guess from zero to nine. Back propogation hasn't been implemented into the program, so it cannot perform machine learning with training data.
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Framework of choice
+**Tech used:** C++
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
-
-## Optimizations
-*(optional)*
-
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+The neural network was implemented through classes, with one class holding all of the layers and one class for each neuron. Convolution and pooling are performed on the layer by the network, where all of the neurons are fully connected in the last layer. Convolution was performed with a 5x5 kernal and relu as the activation function. Max pooling was used in order to focus on essential features of the image, such as the circle of an eight.
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *wow I actually did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
-
-## Examples:
-Take a look at these couple examples that I have in my own portfolio:
-
-**Palettable:** https://github.com/alecortega/palettable
-
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
-
-**Patch Panel:** https://github.com/alecortega/patch-panel
+The hardest part of this project was implementing a convolutional neural network from scratch. This forced me to learn how the entire neural network worked and their purpose. My biggest take away from this project was learning how machine learning worked and its complexity.
 
 
 
